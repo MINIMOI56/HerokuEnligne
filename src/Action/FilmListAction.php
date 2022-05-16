@@ -2,7 +2,7 @@
 
 namespace App\Action;
 
-use App\Domain\Film\Service\filmListor;
+use App\Domain\Film\Service\FilmListor;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 
