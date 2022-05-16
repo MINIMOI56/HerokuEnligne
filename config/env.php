@@ -10,7 +10,7 @@ switch (MODE) {
         // Configuration BD en local
         $_ENV['host'] = 'localhost';
         $_ENV['username'] = 'root';
-        $_ENV['database'] = 'libapi';
+        $_ENV['database'] = 'serviceweb';
         $_ENV['password'] = 'mysql';
         break;
 
