@@ -4,6 +4,12 @@ use DI\ContainerBuilder;
 use Slim\App;
 
 require_once __DIR__ . '/../vendor/autoload.php';
+// Chargement des variables d'environnement
+require_once __DIR__ . '/env.php'; // Ligne à ajouter
+
+$containerBuilder = new ContainerBuilder();
+
+require_once __DIR__ . '/../vendor/autoload.php';
 
 $containerBuilder = new ContainerBuilder();
 
